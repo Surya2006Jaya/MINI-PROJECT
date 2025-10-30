@@ -7,6 +7,7 @@ import com.warehouse.util.DB;
 
 public class ProductDAO {
 
+    
     public List<POJOs> getAllProducts() {
         List<POJOs> list = new ArrayList<>();
         String sql = "SELECT * FROM products";
