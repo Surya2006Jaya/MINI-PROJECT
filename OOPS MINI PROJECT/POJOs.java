@@ -30,6 +30,7 @@ public class ProductDAO {
         }
         return list;
     }
+    
     public void addProduct(POJOs p) {
         String sql = "INSERT INTO products(name, quantity, threshold) VALUES (?, ?, ?)";
         try (Connection conn = DB.getConnection();
