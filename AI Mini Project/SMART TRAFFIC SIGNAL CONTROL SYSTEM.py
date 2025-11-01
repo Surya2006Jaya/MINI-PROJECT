@@ -25,7 +25,6 @@ lane_entry.pack(pady=5)
 
 lane_entries = []
 
-
 def create_lane_inputs():
     global lane_entries
     for widget in lane_entries:
